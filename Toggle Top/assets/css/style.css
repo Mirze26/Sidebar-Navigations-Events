@@ -1,0 +1,64 @@
+
+.topbar{
+    background-color: black;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    transition: all 1s;
+    opacity: 0.9;
+}
+
+
+.topbar i{
+    font-size: 30px;
+    color: gray;
+    cursor: pointer;
+    position: absolute;
+    right: 50px;
+    top: 261px;
+    
+}
+
+.sidebar{
+    transform:translateY(-250px)
+}
+
+.menu .list{
+    text-align: center;
+    list-style: none;
+    font-size: 33px;
+    position: relative;
+    top: 6px;
+   
+}
+
+.list a{
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover{
+    color: blue;
+}
+
+i:hover{
+    color: blue;
+}
+
+
+.myDogs img{
+
+    width: 29%;
+}
+
+ 
+body{
+ 
+    background-image: url("../image/qali.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: rgb(54, 54, 54);
+
+} 
+
+
